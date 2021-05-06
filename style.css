@@ -1,0 +1,170 @@
+
+body{
+  margin: 0;
+  padding:0;
+  background-color: #060c21;
+}
+
+/*
+.button{background-color:#262626;
+        border-radius: 5px;
+        color:#fff;
+        border-color: #fff;
+        
+        font-size: 1em;
+        position:absolute;
+        left:50%; top:50%;
+  transform: translate(-50%,-50%);
+  padding: 20px 30px;
+  user-select: none;
+  
+}
+*/
+.dgclck{background-color:#060c21;
+        border-radius: 5px;
+        color:#fff;
+        border-color: #fff;
+     
+        font-size: 1em;
+        position:absolute;
+        left:50%; top:50%;
+  transform: translate(-50%,-50%);
+  padding: 0 10px;
+  margin-right:10px;
+  user-select: none;
+  text-align:left;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  
+  
+}
+
+
+.dgclck:before{
+  content: '';
+  position: absolute;
+  top:-2px ;
+  left:-2px ;
+  right:-2px ;
+  bottom: -2px;
+  background:#060c21 ;
+  z-index: -1;
+}
+.dgclck:after{
+  content: '';
+  position: absolute;
+  top:-2px ;
+  left:-2px ;
+  right:-2px ;
+  bottom: -2px;
+  background:linear-gradient(235deg,#89ff00,#060c21,#00bcd4) ;
+  z-index: -2;
+ filter: blur(8px);
+ 
+}
+.round{
+  min-width: 180px;
+  width:30%;
+  min-height: 180px;
+  height: 30%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+}
+.round2{
+  min-width: 210px;
+  width:40%;
+  min-height: 210px;
+  height: 40%;
+  border: 2px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border-radius:50%;
+}
+.label{
+  
+}
+h2{
+  
+  padding-right: 5px;
+  padding: 0 7px;
+  z-index: 1;
+}
+.date{
+  color:#00bc04;
+  position:absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%,-65%);
+  padding: 8px 20px;
+}
+.date:before{
+  content: '';
+  position: absolute;
+  top:-2px ;
+  left:-2px ;
+  right:-2px ;
+  bottom: -2px;
+  background:#060c21 ;
+  z-index: -1;
+}
+.date:after{
+  content: '';
+  position: absolute;
+  top:-2px ;
+  left:-2px ;
+  right:-2px ;
+  bottom: -2px;
+ background:linear-gradient(235deg,#89ff00,#060c21,#00bcd4) ;
+  z-index: -2;
+  filter: blur(8px);
+}
+
+@keyframes animi
+{
+  0%{
+  background: linear-gradient(235deg);
+  }
+  25%{
+ background: linear-gradient(135deg);
+  }
+  50%{
+ background: linear-gradient(180deg);
+  }
+  75%{
+ background: linear-gradient(225deg);
+  }
+  100%{
+    
+ background: linear-gradient(270deg);
+  }
+}
+
+*/
+
+#output{background-color:#fff;
+        border-radius: 5px;
+        color:#262626;
+        border-color: #fff;
+        position: absolute;
+        left:50%; bottom:26%;
+        transform: translate(-50%,-40%);
+        width: 90px;
+        padding:10px;
+        font-size: 1.4em;
+        
+  
+  
+}
+
+
+  
+
+
+
